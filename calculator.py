@@ -9,4 +9,11 @@ def multiply(a,b):
     return a*b
 
 def divide(a,b):
-    return -1 if b==0 else a/b
+    #return -1 if b==0 else a/b
+    try:
+        if b==0:
+            raise Exception("Divisor Error")
+    except Exception as e:
+        return e    
+    return a/b
+        
