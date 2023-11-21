@@ -9,4 +9,4 @@ def multiply(a,b):
     return a*b
 
 def divide(a,b):
-    return a/b
+    return -1 if b==0 else a/b
