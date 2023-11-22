@@ -16,4 +16,11 @@ def divide(a,b):
     except Exception as e:
         return e    
     return a/b
-        
+
+def pow(a,b):
+    try:
+        if a==0:
+            raise Exception("Power Error")
+    except Exception as e:
+        return e
+    return a^b        
