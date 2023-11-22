@@ -23,4 +23,14 @@ def pow(a,b):
             raise Exception("Power Error")
     except Exception as e:
         return e
-    return a^b        
+    return a^b 
+
+def mod(a,b):
+    try:
+        if b<=1:
+            raise Exception("Modulo(Remainder) Error")
+    except Exception as e:
+        return e
+    return a%b
+    
+            
