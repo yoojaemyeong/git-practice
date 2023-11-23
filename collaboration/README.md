@@ -7,3 +7,8 @@
 # 연락처
   - 개발자A: jmyoo-one 
   - 개발자B: jmyoo-two
+
+# Dev List
+  - c program :: struct, union, enum
+  - python :: collections
+  - java :: Object Define
