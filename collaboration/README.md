@@ -8,6 +8,11 @@
   - 개발자A: jmyoo-one 
   - 개발자B: jmyoo-two
 
+# 개발일정
+  - 11.24 1차 완료
+  - 12.2  디버깅
+  - 12.30 최종완성
+
 # Dev List
   - c program :: struct, union, enum
   - python :: collections
