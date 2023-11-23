@@ -5,5 +5,5 @@
   - develop/python : python 관련
 
 # 연락처
-  - 개발자A: 
+  - 개발자A: jmyoo-one 
   - 개발자B: 
