@@ -6,4 +6,4 @@
 
 # 연락처
   - 개발자A: jmyoo-one 
-  - 개발자B: 
+  - 개발자B: jmyoo-two
