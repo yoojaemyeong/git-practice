@@ -25,6 +25,11 @@ char* strconcate(const char A[],const char B[]){
 	*str[a+b] = '\0';
 	return str;
 }
+int strcount(const char A[]){
+	int cnt=0;
+	while(A[cnt++] != '\0') ;
+	return cnt;
+}
 
 
 		
