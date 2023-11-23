@@ -14,6 +14,6 @@
   - 12.30 최종완성
 
 # Dev List
-  - c program :: struct, union, enum
-  - python :: collections
-  - java :: Object Define
+  - c program :: struct, union, enum(Dev A)
+  - python :: collections(Dev B)
+  - java :: Object Define(Dev A+B)
