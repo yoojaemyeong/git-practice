@@ -15,6 +15,9 @@ float divide(float a,float b){
 	else
 	    return a/b;
 }
+int pow(int a,int b){
+	return a^b;
+}
 char* strconcate(const char A[],const char B[]){
 	int a=0,b=0;
 	char* str;
