@@ -16,7 +16,8 @@ float divide(float a,float b){
 	    return a/b;
 }
 int power(int a,int b){
-	return a^b;
+	if(b==1) a;
+	return a*power(a,b-1);
 }
 char* strconcate(const char A[],const char B[]){
 	int a=0,b=0;
