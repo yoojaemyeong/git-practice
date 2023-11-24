@@ -15,8 +15,9 @@ float divide(float a,float b){
 	else
 	    return a/b;
 }
-int pow(int a,int b){
-	return a^b;
+int power(int a,int b){
+	if(b==1) a;
+	return a*power(a,b-1);
 }
 char* strconcate(const char A[],const char B[]){
 	int a=0,b=0;
@@ -24,9 +25,9 @@ char* strconcate(const char A[],const char B[]){
 	while(A[a++] != '\0') ;
 	while(B[b++] != '\0') ;
 	str = malloc(a+b+1);
-	for(int i=0;i<a;i++) *str[i] = A[i];
-	for(int i=0;i<b;i++) *str[a+i] = B[i];
-	*str[a+b] = '\0';
+	for(int i=0;i<a;i++) *(str+i) = A[i];
+	for(int i=0;i<b;i++) *(str+a+i)= B[i];
+	*(str+a+b) = '\0';
 	return str;
 }
 int strcount(const char A[]){
